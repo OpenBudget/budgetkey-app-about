@@ -1,12 +1,29 @@
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { AppComponent, SafeHtmlPipe } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { BudgetKeyCommonModule, THEME_ID_TOKEN, LANG_TOKEN } from 'budgetkey-ng2-components';
+import { getAuthServiceConfigProvider } from 'budgetkey-ng2-auth';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
+      imports: [
+        BrowserModule,
+        HttpClientModule,
+        FormsModule,
+        BudgetKeyCommonModule,
       ],
+      declarations: [
+        AppComponent,
+        SafeHtmlPipe
+      ],
+      providers: [
+        {provide: THEME_ID_TOKEN, useValue: 'budgetkey'},
+        {provide: LANG_TOKEN, useValue: 'he'},
+        getAuthServiceConfigProvider('https://next.obudget.org')
+      ]
     }).compileComponents();
   }));
 
@@ -16,16 +33,4 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'budgetkey-app-about'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('budgetkey-app-about');
-  });
-
-  it('should render title in a h1 tag', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to budgetkey-app-about!');
-  });
 });
