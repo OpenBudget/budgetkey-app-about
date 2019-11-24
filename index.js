@@ -64,7 +64,7 @@ app.get(basePath + '*', function(req, res) {
 
   res.render('index.html', {
     base: basePath,
-    title: 'ההגדרות שלך ב' + siteName,
+    title: 'אודות ' + siteName,
     injectedScript: injectedScript,
     authServerUrl: process.env.AUTH_SERVER_URL
   });
