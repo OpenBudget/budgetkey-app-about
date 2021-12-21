@@ -35,4 +35,4 @@
 
 
 ## שאלות? תגובות? רעיונות?
-[צרו איתנו קשר](http://www.hasadna.org.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/)
+[צרו איתנו קשר](mailto:rehesh.hevrati@pmo.gov.il)
