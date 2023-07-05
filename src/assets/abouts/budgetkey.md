@@ -22,10 +22,6 @@
 
 * משלוח המייל עם ההתראות והתזכורות מבוססים על שירות [Mailgun](https://www.mailgun.com). [קראו כאן](https://www.mailgun.com/privacy-policy) על מדיניות הפרטיות של השירות.
 
-* מערכת הפניה לעזרה המוטמעת באתר (צ'ט) מבוססת על שירות [smooch](https://smooch.io/). [קראו כאן](https://smooch.io/privacy/) על מדיניות הפרטיות של השירות.
-
-* כל הפניות מוצגות לצוות "רכש פתוח" ו"מפתח התקציב" באמצעות סנכרון לערוץ [Slack](https://slack.com/) לצד כתובת העמוד ממנו נשלחה הפניה. איננו שומרים או מאכסנים את המידע מעבר לתקשורת השוטפת והמענה המיידי לפניות. [קראו כאן](https://slack.com/privacy-policy) על מדיניות הפרטיות של השירות.
-
 * באתר מוטמע שירות [Google Analytics](https://marketingplatform.google.com/about/analytics/) לניתוח דפוסי השימוש ומיצוב האתר במנועי חיפוש. קוד זה חושף בפני מפעילי השירות מידע בנוגע להתנהגות המשתמשים. [קראו כאן](https://support.google.com/analytics/answer/6004245?hl=he) על מדיניות הפרטיות של השירות.
 
 ## רשיון שימוש {licenses}
@@ -35,21 +31,15 @@
 ## שאלות? תגובות? רעיונות?
 [צרו איתנו קשר](http://www.hasadna.org.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/)
 
-#### ------
+## מימון
 
-#### [![European-Union](assets/img/eu.svg =120x72)](https://europa.eu/european-union/index_en)
+מרבית הפיתוח של האתר בוצע בהתנדבות במסגרת הסדנא לידע ציבורי.
 
-#### This Project is funded by the European Union
+לאורך השנים, הפרויקט קיבל מימון נוסף גם מהגופים הבאים:
 
-#### פרויקט זה מתבצע במימון האיחוד האירופי
+- משרד ראש הממשלה
+- האיחוד האירופי
+- רשות החדשנות
+- חברת "מגדל"
 
-#### هذا المشروع ممول من قبل الاتحاد الأوروبي
-
-#### ------
-
-<p style="text-align: center;">
-This website was created and maintained with the financial support of the European Union.Its contents are the sole responsibility of the Public Knowledge Workshop and do not necessarily reflect the views of the European Union.</p>
-<p style="text-align: center;">
-אתר זה פותח ותוחזק בסיוע האיחוד האירופי. האחריות הבלעדית על תכניו נתונה בידי הסדנא לידע ציבורי ואינם בהכרח משקפים את עמדות האיחוד האירופי.</p>
-<p style="text-align: center;">
-تم إعداد هذا الموقع وصيانته بمساعدة مالية من الاتحاد الأوروبي. محتويات الفيديو من مسؤولية الورشة للمعرفة الجماهيرية و لا تعكس بأي حال من الأحوال وجهات نظر او آراء الاتحاد الاوروبي.</p>
+ועוד מספר תורמים קטנים יותר.
